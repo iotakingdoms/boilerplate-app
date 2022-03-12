@@ -1,0 +1,23 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:tsc",
+    "build:tsc": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run test:unit",
+    "test:unit": "jest test/unit",
+    "prepare": "boilerplate-app"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2",
+    "boilerplate-app": "file:../boilerplate-app"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "author": ""
+}
