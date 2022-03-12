@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-app",
+  "name": "@iotakingdoms/boilerplate-app",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "bin": {
-    "boilerplate-app": "./dist/index.js"
+    "@iotakingdoms/boilerplate-app": "./dist/index.js"
   },
   "dependencies": {
     "deepmerge": "^4.2.2"
